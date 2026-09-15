@@ -1,0 +1,42 @@
+{
+  "numerical_checks": [
+    {
+      "dataset": "real",
+      "cut": 730,
+      "max_numpy_difference": 1.6484591469634324e-12,
+      "no_future_leakage": true
+    },
+    {
+      "dataset": "real",
+      "cut": 1800,
+      "max_numpy_difference": 5.087485988042317e-12,
+      "no_future_leakage": true
+    },
+    {
+      "dataset": "real",
+      "cut": 2465,
+      "max_numpy_difference": 1.3642420526593924e-12,
+      "no_future_leakage": true
+    },
+    {
+      "dataset": "case",
+      "cut": 730,
+      "max_numpy_difference": 1.0913936421275139e-11,
+      "no_future_leakage": true
+    },
+    {
+      "dataset": "case",
+      "cut": 1800,
+      "max_numpy_difference": 1.0913936421275139e-11,
+      "no_future_leakage": true
+    },
+    {
+      "dataset": "case",
+      "cut": 2465,
+      "max_numpy_difference": 9.549694368615746e-12,
+      "no_future_leakage": true
+    }
+  ],
+  "browser": "passed",
+  "console_errors": []
+}
