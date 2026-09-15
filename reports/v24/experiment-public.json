@@ -1,0 +1,12 @@
+{
+  "math": "passed",
+  "sample_per_arm": 393,
+  "planned_finish": 25,
+  "maturation": "passed",
+  "determinism": "passed",
+  "power_and_mde": "passed",
+  "navigation_five_pages": "passed",
+  "controls_and_animation": "passed",
+  "mobile_overflow": false,
+  "console_errors": []
+}

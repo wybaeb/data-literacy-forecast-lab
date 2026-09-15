@@ -5,4 +5,4 @@ Known-variance normal independent samples; equal arms; two-sided alpha .05; pred
 
 Five permanent tabs with active state; existing distribution trainer pointer, touch, undo, CSV and statistics pass. Browser tested slider changes, random rerun, zero effect, animation, method link, mobile overflow; zero console errors. Existing page URLs and models preserved.
 
-Map: find A360 → T59 reference review complete; add duration trainer → T59 model/UI complete; all-tabs compatibility → T59 regression complete; publish → T60 pending public verification. No main merge.
+Map: find A360 → T59 reference review complete; add duration trainer → T59 model/UI complete; all-tabs compatibility → T59 regression complete; publish → T60 complete: gh-pages c08c004, public browser verification passed. No main merge.
