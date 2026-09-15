@@ -1,0 +1,67 @@
+[
+  {
+    "page": "harmonics.html",
+    "order": [
+      "harmonics.html",
+      "index.html",
+      "distributions.html",
+      "clusters.html",
+      "experiment.html"
+    ],
+    "current": [
+      "harmonics.html"
+    ]
+  },
+  {
+    "page": "index.html",
+    "order": [
+      "harmonics.html",
+      "index.html",
+      "distributions.html",
+      "clusters.html",
+      "experiment.html"
+    ],
+    "current": [
+      "index.html"
+    ]
+  },
+  {
+    "page": "distributions.html",
+    "order": [
+      "harmonics.html",
+      "index.html",
+      "distributions.html",
+      "clusters.html",
+      "experiment.html"
+    ],
+    "current": [
+      "distributions.html"
+    ]
+  },
+  {
+    "page": "clusters.html",
+    "order": [
+      "harmonics.html",
+      "index.html",
+      "distributions.html",
+      "clusters.html",
+      "experiment.html"
+    ],
+    "current": [
+      "clusters.html"
+    ]
+  },
+  {
+    "page": "experiment.html",
+    "order": [
+      "harmonics.html",
+      "index.html",
+      "distributions.html",
+      "clusters.html",
+      "experiment.html"
+    ],
+    "current": [
+      "experiment.html"
+    ]
+  }
+]
