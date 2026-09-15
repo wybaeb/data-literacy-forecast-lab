@@ -31,13 +31,13 @@ with sync_playwright() as p:
  page.locator('[data-preset=bimodal]').click();page.screenshot(path='/tmp/distributions-desktop.png',full_page=True)
  with page.expect_download() as download:page.locator('#download').click()
  path=download.value.path();rows=Path(path).read_text().splitlines();assert len(rows)==161
- # All four pages have the permanent nav and appropriate active link.
- for name in ['index.html','harmonics.html','clusters.html','distributions.html']:
-  page.goto(base+name);page.wait_for_selector('.lab-nav');assert page.locator('.lab-nav a').count()==4;assert page.locator('.lab-nav [aria-current=page]').get_attribute('href')==name
+ # All five pages have the permanent nav and appropriate active link.
+ for name in ['index.html','harmonics.html','clusters.html','distributions.html','experiment.html']:
+  page.goto(base+name);page.wait_for_selector('.lab-nav');assert page.locator('.lab-nav a').count()==5;assert page.locator('.lab-nav [aria-current=page]').get_attribute('href')==name
  page.goto(base+'distributions.html#method');page.wait_for_function('window.distributionState');assert page.locator('#method').get_attribute('open') is not None
  page.set_viewport_size({'width':390,'height':844});assert page.evaluate('document.documentElement.scrollWidth<=innerWidth');page.screenshot(path='/tmp/distributions-mobile.png',full_page=True)
  # True touch gestures and cancellation on an emulated touch device.
  touch=browser.new_context(viewport={'width':390,'height':844},is_mobile=True,has_touch=True);tp=touch.new_page();tp.on('pageerror',lambda e:errors.append(str(e)));tp.goto(base+'distributions.html');tp.wait_for_function('window.distributionState');tp.locator('#series').scroll_into_view_if_needed();box=tp.locator('#series').bounding_box();cdp=touch.new_cdp_session(tp);before=tp.evaluate('distributionState.values');x=box['x']+box['width']*.3;y=box['y']+box['height']*.3
  cdp.send('Input.dispatchTouchEvent',{'type':'touchStart','touchPoints':[{'x':x,'y':y}]});cdp.send('Input.dispatchTouchEvent',{'type':'touchMove','touchPoints':[{'x':x+60,'y':y+20}]});tp.wait_for_timeout(100);assert tp.evaluate('distributionState.values')!=before;cdp.send('Input.dispatchTouchEvent',{'type':'touchCancel','touchPoints':[]});tp.wait_for_timeout(100);assert tp.evaluate('distributionState.values')==before
  touch.close();assert not errors,errors;browser.close()
-print(json.dumps({'math_fixtures':len(data),'pointer_series':'passed','pointer_histogram':'passed','live_updates':'passed','undo':'passed','empty_singleton_endpoints':'passed','numeric_controls':'passed','csv':'passed','navigation_four_pages':'passed','mobile_overflow':False,'touch_and_cancel':'passed','console_errors':errors},ensure_ascii=False,indent=2))
+print(json.dumps({'math_fixtures':len(data),'pointer_series':'passed','pointer_histogram':'passed','live_updates':'passed','undo':'passed','empty_singleton_endpoints':'passed','numeric_controls':'passed','csv':'passed','navigation_five_pages':'passed','mobile_overflow':False,'touch_and_cancel':'passed','console_errors':errors},ensure_ascii=False,indent=2))
