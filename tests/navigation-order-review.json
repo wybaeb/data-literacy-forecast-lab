@@ -1,0 +1,92 @@
+[
+  {
+    "page": "harmonics.html",
+    "width": 1440,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  },
+  {
+    "page": "distributions.html",
+    "width": 1440,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  },
+  {
+    "page": "clusters.html",
+    "width": 1440,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  },
+  {
+    "page": "experiment.html",
+    "width": 1440,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  },
+  {
+    "page": "harmonics.html",
+    "width": 390,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  },
+  {
+    "page": "distributions.html",
+    "width": 390,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  },
+  {
+    "page": "clusters.html",
+    "width": 390,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  },
+  {
+    "page": "experiment.html",
+    "width": 390,
+    "order": true,
+    "current": true,
+    "click": true,
+    "focus": true,
+    "no_overflow": true
+  }
+]
