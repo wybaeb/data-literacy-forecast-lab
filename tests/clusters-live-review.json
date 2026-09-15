@@ -1,0 +1,56 @@
+{
+  "math": [
+    {
+      "k": 1,
+      "inertia": 1200.000000000001,
+      "silhouette": null,
+      "centers_and_nearest_assignments": true
+    },
+    {
+      "k": 2,
+      "inertia": 75.6297750750037,
+      "silhouette": 0.844304911095195,
+      "centers_and_nearest_assignments": true
+    },
+    {
+      "k": 3,
+      "inertia": 56.868192159899145,
+      "silhouette": 0.5941960334971913,
+      "centers_and_nearest_assignments": true
+    },
+    {
+      "k": 4,
+      "inertia": 43.61973833383655,
+      "silhouette": 0.6141985914040481,
+      "centers_and_nearest_assignments": true
+    },
+    {
+      "k": 5,
+      "inertia": 31.90831164756323,
+      "silhouette": 0.4111364896434687,
+      "centers_and_nearest_assignments": true
+    },
+    {
+      "k": 6,
+      "inertia": 27.545522264912485,
+      "silhouette": 0.4025038883641801,
+      "centers_and_nearest_assignments": true
+    },
+    {
+      "k": 7,
+      "inertia": 23.90343249471567,
+      "silhouette": 0.39053458295706284,
+      "centers_and_nearest_assignments": true
+    },
+    {
+      "k": 8,
+      "inertia": 20.30839347504878,
+      "silhouette": 0.38195685953731273,
+      "centers_and_nearest_assignments": true
+    }
+  ],
+  "browser": "passed",
+  "navigation_three_pages": "passed",
+  "stationary_points": "passed",
+  "console_errors": []
+}
