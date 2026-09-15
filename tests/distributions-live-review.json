@@ -1,0 +1,14 @@
+{
+  "math_fixtures": 7,
+  "pointer_series": "passed",
+  "pointer_histogram": "passed",
+  "live_updates": "passed",
+  "undo": "passed",
+  "empty_singleton_endpoints": "passed",
+  "numeric_controls": "passed",
+  "csv": "passed",
+  "navigation_four_pages": "passed",
+  "mobile_overflow": false,
+  "touch_and_cancel": "passed",
+  "console_errors": []
+}
